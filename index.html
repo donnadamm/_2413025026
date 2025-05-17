@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dona Damayanti</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Tambahan CSS -->
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        #tentang-saya {
+            padding: 100px 20px;
+            border-radius: 20px;
+            margin: 50px 20px;
+        }
+        .about-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .info-left, .info-right {
+            flex: 1 1 300px;
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <video autoplay loop muted plays-inline class="back-vid">
+        <source src="BUNGA.mp4" type="video/mp4">
+    </video>
+
+    <section class="main-section">
+       <nav>
+        <h1><span style="color:#8b0033">Selamat </span>Datang</h1>
+        <ul>
+            <li><a class="active" href="#">Beranda</a></li>
+            <li><a href="#tentang-saya">Tentang</a></li> <!-- Ini sudah benar -->
+            <li><a href="#materi">Materi</a></li>
+            <li><a href="#tugas">Tugas</a></li>
+        </ul>
+       </nav> 
+
+       <div class="hero">
+        <div class="hero-info">
+            <h1>Hai, Saya Dona</h1>
+            <h2>Saya seorang Mahasiswa</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium mollitia esse libero magni ad quaerat est earum laboriosam culpa blanditiis. Placeat culpa in sint exercitationem soluta cupiditate? Eum, enim ipsam!</p>
+            <div class="Buttons">
+                <button class="btn">Hai!</button>
+                <ul class="ul-icons">
+                    <li><a href=""><i class="bx bxl-github"></i></a></li>
+                    <li><a href=""><i class="bx bxl-whatsapp"></i></a></li>
+                    <li><a href=""><i class="bx bxl-instagram"></i></a></li>
+                    <li><a href=""><i class="bx bxl-tiktok"></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="hero-img">
+            <img src="potoprofil.jpg" alt="person-img">
+        </div>
+       </div>
+    </section>
+
+    <section id="tentang-saya" class="about-section">
+        <h1>Tentang Saya</h1>
+        <div class="about-card">
+            <div class="about-info">
+                <div class="info-left">
+                    <p>Nama: Dona Damayanti</p>
+                    <p>Tempat/Tanggal Lahir: Tanggamus, 26 Februari 2006</p>
+                    <p>Jenis Kelamin: Perempuan</p>
+                    <p>Domisili Asal: Tanggamus</p>
+                    <p>Agama: Islam</p>
+
+                    <br><p>PTN: Universitas Lampung</p>
+                    <p>Fakultas: KIP</p>
+                    <p>Jurusan: PMIPA</p>
+                    <p>Program Studi: Pendidikan Teknologi Informasi</p>
+                    <p>NPM: 2413025026</p>
+                </div>
+                <div class="info-right">
+                    <img src="foto kamu.jpg" alt="Foto Dona" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="materi" class="material-section">
+        <h1>Materi Tugas Grafikom Semester 2</h1>
+        <div class="materi-container">
+            <div class="materi-item">
+                <a href="https://docs.google.com/presentation/d/1sMP9d0c9I2tbmN8VMsNXDwBdYPS-PhaS/edit" target="_blank">
+                    <img src="DDA.png" alt="Algoritma Garis DDA">
+                    <p>Algoritma Garis DDA</p>
+                </a>
+            </div>
+            <div class="materi-item">
+                <a href="https://docs.google.com/presentation/d/1sMP9d0c9I2tbmN8VMsNXDwBdYPS-PhaS/edit" target="_blank">
+                    <img src="MID.png" alt="Algoritma Lingkaran Midpoint">
+                    <p>Algoritma Lingkaran Midpoint</p>
+                </a>
+            </div>
+            <div class="materi-item">
+                <a href="https://docs.google.com/presentation/d/1sMP9d0c9I2tbmN8VMsNXDwBdYPS-PhaS/edit" target="_blank">
+                    <img src="BEZ.png" alt="Algoritma Kurva Bezier Kuadratik">
+                    <p>Algoritma Kurva Bezier Kuadratik</p>
+                </a>
+            </div>
+        </div>
+        <div class="materi-container">
+            <div class="materi-item">
+                <a href="https://docs.google.com/presentation/d/1b5YF7NbMmrJKXGq9e0AaEh8AWEktAQGO/edit?slide=id.p1#slide=id.p1" target="_blank">
+                    <img src="2D.png" alt="Transformasi 2D">
+                    <p>Transformasi 2D</p>
+                </a>
+            </div>
+            <div class="materi-item">
+                <a href="https://docs.google.com/presentation/d/1SP774fs1Dgw1_nyidsdWEU2KZYtJoMEg/edit?slide=id.p5#slide=id.p5" target="_blank">
+                    <img src="PRO.png" alt="Proyeksi">
+                    <p>Proyeksi</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="tugas" class="task-section">
+        <h1>Tugas SpreedSheet Grafkom Semester 2</h1>
+        <p>(Klik untuk melihat)</p>
+        <div class="task-card">
+            <div class="tugas-container">
+                <div class="tugas-item">
+                    <a href="https://docs.google.com/spreadsheets/d/1aauKSN3KwsUxhhGZAYodVx4BorrhQZ_o/edit?gid=966776869#gid=966776869" target="_blank">
+                        <img src="hsl dda.png" alt="Algoritma Garis DDA">
+                        <p>Algoritma Garis DDA</p>
+                    </a>
+                </div>
+                <div class="materi-item">
+                    <a href="https://docs.google.com/spreadsheets/d/1hQ8kaIogYVfuMeW-JHNyuKPW0hFonyhGfPzkDOOaKHg/edit?gid=0#gid=0" target="_blank">
+                        <img src="hsl mid.png" alt="Algoritma Lingkaran Midpoint">
+                        <p>Algoritma Lingkaran Midpoint</p>
+                    </a>
+                </div>
+                <div class="materi-item">
+                    <a href="https://docs.google.com/spreadsheets/d/1Z_76aodLHA7ksugWlHPq5WIF7oYSRno7KpqnPPZqhOY/edit?gid=0#gid=0" target="_blank">
+                        <img src="hsl bez.png" alt="Algoritma Kurva Bezier Kuadratik">
+                        <p>Algoritma Kurva Bezier Kuadratik</p>
+                    </a>
+                </div>
+            </div>
+            <div class="materi-container">
+                <div class="materi-item">
+                    <a href="https://docs.google.com/spreadsheets/d/1eYFSVUz_Zci7VWt4_TO0-009o00uMvkU16xkP8NvdsY/edit?usp=sharing" target="_blank">
+                        <img src="hsl 2d.png" alt="Transformasi 2D">
+                        <p>Transformasi 2D</p>
+                    </a>
+                </div>
+                <div class="materi-item">
+                    <a href="https://docs.google.com/spreadsheets/d/1X-ervVSKqp3T6y3JuBdyqQ9zQA44K1IuFbm6t3p0rxg/edit?usp=sharing" target="_blank">
+                        <img src="hsl pro.png" alt="Proyeksi">
+                        <p>Proyeksi</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+</html>
+
+<footer>
+    <p>&copy; 2025 Dona Damayanti. 2413025026.</p>
+</footer>
